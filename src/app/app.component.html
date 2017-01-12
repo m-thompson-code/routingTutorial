@@ -1,0 +1,15 @@
+<h1>
+  Routing Tests!
+</h1>
+<hr>
+<nav>
+  <!-- [queryParams]="{ home: 'iside'}" -->
+  <!-- [routerLinkActive]="active fluffy" -->
+  <a routerLink='/' routerLinkActive="active">Home</a>
+  <a routerLink='/' routerLinkActive="active classIsActive">Home2</a>
+  <!-- <a [routerLink]="['/', { home: 'iside'}]" routerLinkActive="active">Home2</a> -->
+  <a routerLink="/user" routerLinkActive="active">User</a>
+  <a routerLink="/sepRoute" routerLinkActive="active">sepRoute Test</a>
+</nav>
+<hr>
+<router-outlet></router-outlet>
